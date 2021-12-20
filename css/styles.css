@@ -274,13 +274,13 @@ button:hover {
 /* Contents */
 
 .contents .top {
-    padding-top: 180px;
+    padding-top: 250px;
 }
 
 .contents .top p {
-    width: 500px;
+    width: 550px;
     margin: auto;
-    padding: 30px;
+    padding: 20px;
 }
 
 .contents-grid {
@@ -328,13 +328,13 @@ button:hover {
 }
 
 .gallery .top {
-    padding-top: 180px;
+    padding-top: 250px;
 }
 
 .gallery .top p {
-    width: 500px;
+    width: 550px;
     margin: auto;
-    padding: 30px;
+    padding: 20px;
 }
 
 /* Cards */
@@ -344,5 +344,86 @@ button:hover {
 }
 
 .see-more {
-    position: center;
+    text-align: center;
+}
+.see-more .see-more {
+    margin-top: 20px;
+}
+
+.partners .top {
+    padding-top: 250px;
+}
+
+.partners .top p{
+    width: 550px;
+    margin: auto;
+    padding: 20px;
+}
+
+.logos .card {
+    width: 80px;
+    border-radius: 0;
+    margin: 40px;
+}
+
+.logos .ibm {
+    width: 140px;
+}
+
+.testimonials .top {
+    padding-top: 250px;
+    padding-bottom: 40px;
+}
+
+.testimonials-grid {
+    width: 70%;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.designer-flex {
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+    padding: 0px;
+}
+
+.designer,
+.designer h4,
+.designer p{
+    background: none;
+    color: #FFFFFF;
+}
+
+.designer {
+    border: 1px solid #FFFFFF;
+    /*height: auto;*/
+}
+
+.icon {
+    background: none;
+    width: 60px;
+
+}
+
+
+
+.cta-element {
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.cta-element .card {
+    position: relative;
+    top: 80px;
+}
+
+.cta-background,
+.cta-background h2,
+.cta-background div {
+    background-color: rgb(66, 66, 66);
+    border-radius: 50px;
+    color: #181818;
+    /*box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);*/
+    padding: 20px;
+    margin: 20px;
 }
